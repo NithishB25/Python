@@ -23,13 +23,16 @@ while True:
     items.append(item)
 print("your cart",items)
 '''
-#wile for reveese the number
+#wile for reveese the numbe
+'''
 rev = 0
 num = int(input("Enter a number to reverse : "))
 num9=num
 while num9>0:
     d=num9%10
     rev = rev*10+d
-    num9/=10
+    num9//=10
     
 print("the revers value ",rev)   
+'''
+# 
